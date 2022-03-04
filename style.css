@@ -1,5 +1,23 @@
-a:hover{color:green}
-.s{
-    color: orange;
-    font-weight: bold;
-  }
+body{                    
+  display: flex;
+  flex-direction: column;
+}
+
+
+main{
+  display: flex;
+  flex: auto;
+  width: auto;
+  background: #3f2502;
+}
+
+aside{
+  flex: 1;
+  height: auto;
+  background-color: cornflowerblue;
+}
+article{
+  flex: 3;
+  height: auto;
+  background-color:rgb(170, 185, 35)
+}
