@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>食记</title>
+    <link rel="shortcut icon" href="img/2.png" type="image/x-icon">
+    <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/thumbnail.js"></script>    
+    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
+</head>
+
+<body>
+   <div id="log">
+   	<div id="log1">
+     <a href="index.html"><img src="img/4.png" alt="网页logo" width="50px" height="50px" ></a> 		
+   	</div>
+   	<div id="log2">
+     <h1><center>food <span>diary</span></center></h1>	    		
+   	</div>
+   </div>
+  <div class="top">
+    <h3>朋友圈里晒美食？来这里，烹饪爱好者的乐园</h3>
+    <ul class="daohang">
+      <li><a href="index.html" class="active">主页</a></li>
+      <li><a href="bilibili.html">精选</a></li>
+      <li><a href="#classify">分类</a></li>
+      <li><a href="#active">线下活动</a></li>
+      <li><a href="#personal">个人中心</a></li>
+    </ul>
+  </div>
+     
+  <main>
+    <aside>
+      <h2>创站初心</h2>
+      <p>为烹饪爱好者提供一个互相交流的港湾</p>
+      <p>你也可以在上面提供新奇的食材供大家购买</p>                
+      <p>定期在各地区举办厨艺比拼赛，以赛会友</p>
+      <p>你可以把你的烹饪步骤分享在这里，供烹饪入门者学习或者听从烹饪高手的建议来改进你的厨艺</p>                          
+    </aside>
+    <article>
+ 	
+      <h1>热门文章</h1> 
+      
+      <div class="one">
+      	
+    
+      <img src="images/food1.jpg" alt="中餐" class="small" id="smart-image1">
+      <img src="images/food2.jpg" class="small" id="smart-image2">
+      <img src="images/food3.jpg" class="small" id="smart-image3">
+      <img src="images/food4.jpg" class="small" id="smart-image4">
+      <img src="images/food5.jpg" class="small" id="smart-image5">
+      
+    <div id="waline"></div>
+      <script>
+      Waline({
+         el: '#waline',
+         serverURL: 'https://waline-server-nxca2zkum-tomato566.vercel.app',
+      });
+     </script>
+      
+    </div>
+    </article>
+  </main>  
+  <footer>
+    by <a href="https://www.zhihu.com/people/tomato-94-5-74" target="_blank">CGTN</a> for <a href="https://www.adalab.cn" target="_blank">Adalab</a>
+  </footer>  
+</body>
+
+</html>
